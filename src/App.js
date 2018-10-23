@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import SignupForm from './SignupForm.js';
 
 class App extends Component {
   render() {
@@ -20,6 +21,13 @@ class App extends Component {
             Learn React
           </a>
         </header>
+        
+        <div className="application_wrapper">
+          <div className="application_routeHandler">
+            <SignupForm/>
+          </div>
+        </div>
+        
       </div>
     );
   }
